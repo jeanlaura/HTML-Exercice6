@@ -1,0 +1,117 @@
+/*********************VERSION TABLE***********************/
+/**************************HTML***************************/
+html{
+  width: 100%;
+  height: 100%;
+}
+/**************************TABLE**************************/
+table{
+  width: 100%;
+  height: 10%;
+}
+#table1{
+  width: 100%;
+  height: 8%;
+}
+#table2{
+  width: 100%;
+  height: 15%;
+}
+#table3{
+  width: 100%;
+  height: 15%;
+}
+#table4{
+   width: 100%;
+   height: 30%;
+ }
+/**********************BODY NTH OF TYPE*******************/
+body{
+  margin: 0 0 0 0!important;
+  display: inline;
+}
+/*************************LIGNE 1*************************/
+.ligne1colonne1{
+  background-color: #00C843;
+  width: 70%;
+}
+.ligne1colonne2{
+  background-color: #007FC8;
+  width: 30%;
+}
+/*************************LIGNE 2*************************/
+.ligne2colonne1{
+  background-color: #EF2424;
+  width: 34%;
+}
+.ligne2colonne2{
+  background-color: #F67A0E;
+  width: 33%;
+}
+.ligne2colonne3{
+  background-color: #C7C0BA;
+  width: 33%;
+}
+/*************************LIGNE 3*************************/
+.ligne3colonne1{
+  background-color: #EF2424;
+  width: 34%;
+}
+.ligne3colonne2{
+  background-color: #EABC22;
+  width: 22%;
+}
+.ligne3colonne3{
+  background-color: #51DB9F;
+  width: 22%;
+}
+.ligne3colonne4{
+  background-color: #FE7700;
+  width: 22%;
+}
+/*************************LIGNE 4*************************/
+.ligne4{
+  background-color: #030E57;
+  width: 100%;
+}
+/*********************************************************/
+/*********************************************************/
+/*********************VERSION FLEXBOX*********************/
+/*Basic styling */
+body{ color: white; font-family: sans-serif; font-size: 1.4em; }
+#flex1Ligne1{ background-color: #00C843; width: 70%; height: 20px; }
+#flex2Ligne1{ background-color: #007FC8; width: 30%; height: 20px; }
+
+#flex1Ligne2{ background-color: #EF2424; width: 34%; height: 50px; }
+#flex2Ligne2{ background-color: #F67A0E; width: 33%; height: 50px; }
+#flex3Ligne2{ background-color: #C7C0BA; width: 33%; height: 50px; }
+
+#flex1Ligne3{ background-color: #EF2424; width: 34%; height: 50px; }
+#flex2Ligne3{ background-color: #EABC22; width: 22%; height: 50px; }
+#flex3Ligne3{ background-color: #51DB9F; width: 22%; height: 50px; }
+#flex4Ligne3{ background-color: #FE7700; width: 22%; height: 50px; }
+
+#flex1Ligne4{ background-color: #030E57; width: 100%; height: 100px; }
+
+/*Displaying items in a row*/
+.flexcontainer {
+   /* background-color: #E0E0E0;
+   padding: 20px; */
+
+   display: -webkit-flex; /*Setting the container to flex*/
+   display: flex;
+
+   -webkit-flex-direction: row; /*Items inside the container into a row*/
+   flex-direction: row;
+
+   -webkit-align-items: center;  /*Center everything up */
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+
+   /*Aligns the items to the right/end of the container
+    -webkit-justify-content: flex-end;
+   justify-content: flex-end;
+  */
+
+}
